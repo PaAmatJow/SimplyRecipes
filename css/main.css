@@ -264,13 +264,14 @@ Navbar
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: darkgreen; */
+  height: 6rem; /* background: darkgreen; */
 }
 
 .nav-center{
   width: 90vw;
   max-width: var(--max-width);
   /* background: darkorange; */
+
 }
 
 .nav-header {
@@ -363,10 +364,10 @@ Navbar
     font-size: 1rem;
   }
 /* i did this to create space between navbar and body on bigger screen */
-  .nav-header, .nav-links {
+  /* .nav-header, .nav-links {
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
-  }
+  } */
 
   .contact-link {
     margin-left: auto;
@@ -380,12 +381,11 @@ Page
 ===========
 */
 .page {
-  background: red;
   width: 90vw;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 2rem;
-  min-height: 100vh;
+  padding-top: 2rem;
+  min-height: calc(100vh - (6rem + 4rem));
 }
 
 /* 
